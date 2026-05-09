@@ -1,0 +1,103 @@
+body{
+    background-color:#f1f1f1;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:20px;
+}
+header{
+    background-color:white;
+    text-align:center;
+    padding:40px;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+header h4{
+    font-weight:normal;
+}
+
+.unknown{
+    background-color:black;
+    color:white;
+    padding:5px 10px;
+}
+.container{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.left{
+    width:70%;
+    background-color:white;
+    padding:20px;
+    box-shadow:0px 0px 10px lightgray;
+}
+
+.right{
+    width:30%;
+    background-color:white;
+    box-shadow:0px 0px 10px lightgray;
+}
+
+.right h1{
+    padding-left:15px;
+}
+
+.right p{
+    padding:0 15px 15px;
+}
+
+img{
+    width:100%;
+}
+
+h3{
+    color:gray;
+    font-weight:normal;
+}
+p{
+    line-height:30px;
+    color:#555;
+}
+input[type="button"]{
+    padding:12px 20px;
+    border:1px solid gray;
+    background-color:white;
+    cursor:pointer;
+    margin-top:20px;
+}
+input[type="button"]:hover{
+    background-color:black;
+    color:white;
+}
+
+
+
+aside{
+    text-align:right;
+    margin-top:-50px;
+}
+
+
+
+footer{
+    background-color:#666;
+    color:white;
+    padding:30px;
+    margin-top:20px;
+}
+
+footer input{
+    background-color:black;
+    color:white;
+    margin-right:10px;
+}
+
+footer h5{
+    margin-top:30px;
+    color:#ddd;
+}
