@@ -1,18 +1,24 @@
-body{
-    background-color:#f1f1f1;
-    font-family:Arial, Helvetica, sans-serif;
-    margin:20px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
+
+body{
+    background:#f1f1f1;
+}
+
 header{
-    background-color:white;
     text-align:center;
-    padding:40px;
-    margin-bottom:20px;
+    padding:50px;
+    background:white;
+    margin-bottom:30px;
 }
 
 header h1{
-    font-size:50px;
-    margin-bottom:10px;
+    font-size:60px;
+    margin-bottom:15px;
 }
 
 header h4{
@@ -20,11 +26,14 @@ header h4{
 }
 
 .unknown{
-    background-color:black;
+    background:black;
     color:white;
     padding:5px 10px;
 }
+
 .container{
+    width:90%;
+    margin:auto;
     display:flex;
     gap:30px;
     align-items:flex-start;
@@ -32,72 +41,75 @@ header h4{
 
 .left{
     width:70%;
-    background-color:white;
-    padding:20px;
-    box-shadow:0px 0px 10px lightgray;
 }
 
 .right{
     width:30%;
-    background-color:white;
-    box-shadow:0px 0px 10px lightgray;
 }
 
-.right h1{
-    padding-left:15px;
+.card{
+    background:white;
+    margin-bottom:30px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
 }
 
-.right p{
-    padding:0 15px 15px;
-}
-
-img{
+.card img{
     width:100%;
+    display:block;
 }
 
-h3{
+.content{
+    padding:25px;
+}
+
+.content h2{
+    margin-bottom:15px;
+}
+
+.content h3{
     color:gray;
     font-weight:normal;
+    margin-bottom:20px;
 }
-p{
-    line-height:30px;
+
+.content p{
     color:#555;
+    line-height:1.8;
 }
-input[type="button"]{
+
+.buttons{
+    margin-top:25px;
+    display:flex;
+    gap:15px;
+}
+
+button{
     padding:12px 20px;
+    background:white;
     border:1px solid gray;
-    background-color:white;
     cursor:pointer;
-    margin-top:20px;
+    transition:0.3s;
 }
-input[type="button"]:hover{
-    background-color:black;
+
+button:hover{
+    background:black;
     color:white;
 }
-
-
-
-aside{
-    text-align:right;
-    margin-top:-50px;
-}
-
-
 
 footer{
-    background-color:#666;
+    background:#666;
     color:white;
-    padding:30px;
+    text-align:center;
+    padding:40px;
+}
+
+footer button{
+    background:black;
+    color:white;
+    border:none;
+    margin:10px;
+}
+
+footer p{
     margin-top:20px;
-}
-
-footer input{
-    background-color:black;
-    color:white;
-    margin-right:10px;
-}
-
-footer h5{
-    margin-top:30px;
-    color:#ddd;
 }
